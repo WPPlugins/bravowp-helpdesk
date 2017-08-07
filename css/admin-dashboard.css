@@ -1,0 +1,361 @@
+
+/* Wp overrides */
+
+#wpcontent {
+    
+}
+
+.bwhd{
+}
+
+.bwhd-admin-container{
+    margin: 20px 20px 20px 0px !important;
+    background-color: #3d464d;
+}
+
+/* Admin page panes */
+
+.bwhd-admin-topbar {
+    background: #337ab7 none repeat scroll 0 0;
+    color: #fff;
+    height: 38px;
+    padding-left: 13px;
+    padding-top: 8px;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+}
+
+
+.bwhd-admin-leftpane {
+	background: #3d464d none repeat scroll 0 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    font-weight: normal;
+    left: 0;
+    width: 200px;
+    z-index: 500;
+    float:left;
+}
+
+.bwhd-admin-rightpane {
+    background: #f5f5f5 none repeat scroll 0 0;
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+
+/* Left pane menu */
+.bwhd-admin-leftpane-menu {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border:0px solid transparent !important;
+    margin: 0 20px;
+    padding: 15px 0;
+}
+
+.bwhd-admin-leftpane-menu li a {
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 9px 20px 9px 54px !important;
+    position: relative;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.bwhd-admin-leftpane-menu li .icon {
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    font-size: 19px;
+    height: 24px;
+    left: 20px;
+    padding-top: 1px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 24px;
+}
+
+.bwhd-admin-leftpane-menu li a:hover, .bwhd-admin-leftpane-menu li a.active, .bwhd-admin-leftpane-menu-active-li a {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0 !important;
+    color: #f2f2f2 !important;
+}
+.bwhd-admin-leftpane-menu li a:hover .icon, .bwhd-admin-leftpane-menu li a.active .icon,  .bwhd-admin-leftpane-menu-active-li .icon  {
+    color: #fff !important;
+}
+.bwhd-admin-leftpane-menu li a .icon i {
+    font-size:18px !important;
+}
+
+
+
+
+/* Right pane Generic controls */
+.bwhd-admin-rightpane-control
+{
+    display:none;
+}
+
+.bwhd-admin-rightpane-page-header
+{
+    background: #fff none repeat scroll 0 0;
+    border-bottom: medium none;
+    margin: -20px -30px 20px -30px;
+    padding: 20px;
+    min-height: 60px;
+}
+
+.bwhd-admin-rightpane-page-header-title{
+    color: #37363e;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+    float:left;
+}
+
+.bwhd-admin-rightpane-greyedtext{
+    color:#adadad !important;
+}
+
+.bwhd-admin-rightpane-page-header-bigbuttons{
+    margin-top:-4px;
+}
+
+.bwhd-admin-rightpane-panel {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    border-radius: 3px;
+
+}
+.bwhd-admin-rightpane-panel-default {
+    border-color: #ddd;
+
+}
+.bwhd-admin-rightpane-panel-title {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: medium none;
+    color: #58666e;
+    font-size: 14px;
+    font-weight: bold;
+    margin: -20px -20px 5px;
+    padding: 16px 20px;
+    text-transform: uppercase;
+}
+
+
+
+.bwhd-admin-rightpane-horizontalsubmenu {
+    background: #fff none repeat scroll 0 0;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    overflow: hidden;
+    position: relative;
+}
+
+.bwhd-admin-rightpane-horizontalsubmenu .menu {
+    margin-bottom: 0;
+    padding: 11px 0;
+}
+.bwhd-admin-rightpane-horizontalsubmenu .menu li {
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+    color: #76747a;
+    display: inline;
+    font-size: 13px;
+    padding: 16px 0;
+    margin-right: -4px;
+}
+
+.bwhd-admin-rightpane-horizontalsubmenu .menu li a {
+    border-radius: 3px;
+    color: #76747a;
+    padding: 15px 19px;
+    cursor: pointer;
+}
+.bwhd-admin-rightpane-horizontalsubmenu .menu li .fa {
+    color: #666;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.bwhd-admin-rightpane-horizontalsubmenu-selecteditem {
+    border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+    display: inline !important;
+    font-size: 13px !important;
+    padding: 16px 0 !important;
+    margin-right: -4px;
+    background-color:#337ab7;
+}
+.bwhd-admin-rightpane-horizontalsubmenu-selecteditem a {
+    border-radius: 3px;
+    padding: 15px 19px;
+    color:#fff !important;
+    cursor: pointer;
+}
+.bwhd-admin-rightpane-horizontalsubmenu-selecteditem .fa {
+    color: #fff !important;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+
+
+.bwhd-admin-rightpane-inner-panel {
+    position: relative;
+    margin-bottom: 30px;
+    background-color:#fff;
+}
+
+.bwhd-admin-rightpane-inner-panel-with-bottom-border {
+    border-bottom: 1px dotted #dddddd;
+    margin-bottom: 20px !important;
+    padding-bottom: 10px !important;
+}
+
+
+.bwhd-admin-rightpane-inner-panel-title {
+    color: #58666e;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.bwhd-admin-rightpane-inner-panel-body {    
+}
+
+.bwhd-admin-rightpane-datatable-editicon
+{
+    color: #5cb85c;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#bwhd-admin-rightpane-ticketmessages-list{
+    max-height: 400px;
+    overflow: auto;
+}
+
+.bwhd-admin-rightpane-ticketmessages-message{
+}
+
+.bwhd-admin-rightpane-ticketmessages-message-text{
+    background: #b9f98e none repeat scroll 0 0;
+    color: #0a451d;
+    border-radius: 20px;
+    display: inline-table;
+    padding: 7px 20px;
+}
+.bwhd-admin-rightpane-ticketmessages-message-text-blue{
+    background: #b6deff none repeat scroll 0 0 !important;
+}
+.bwhd-admin-rightpane-ticketmessages-message-date{
+    font-size:70%;
+    display:block;
+}
+
+.bwhd-admin-errorinputborder{
+    border-color: #ef4836 !important;
+}
+
+.bwhd-admin-settings-group{
+    border-bottom: 1px dotted silver;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bwhd-admin-setting-label{
+    padding-top:0px !important;
+    cursor: default !important;
+}
+
+
+
+.bwhd-admin-label-required:after{
+   content:" *";
+   color:red;
+}
+
+
+
+
+.bwhd-admin-dashboard-widget-title{
+    font-size:13px;
+    display:block;
+    margin-bottom:12px;
+}
+.bwhd-admin-dashboard-widget-number{
+    font-size:38px;
+    display:block;
+    font-weight: bold;
+    margin-bottom:12px;
+}
+.bwhd-admin-dashboard-widget-subtitle{
+    font-size:12px;
+    color:#adadad !important;
+    display:block;
+}
+
+
+
+
+.bwhd-admin-dashboard-lasttickets-table{    
+}
+.bwhd-admin-dashboard-lasttickets-table-tdticketid span{
+    background-color: #f3f3f3;
+    border: 1px solid silver;
+    border-radius: 3px;
+    display: block;
+    margin-top: 2px;
+    padding: 10px 4px;
+    text-align: center;
+    width: 40px;
+}
+.bwhd-admin-dashboard-lasttickets-table-tdavatar img{
+}
+
+
+
+#bwhd-admin-dashboard-chart-openvsclosed .ct-series-a .ct-bar,  #bwhd-admin-dashboard-chart-openvsclosed .ct-series-a .ct-point
+{
+    stroke:#337ab7 !important;
+}
+#bwhd-admin-dashboard-chart-openvsclosed .ct-series-b .ct-bar,  #bwhd-admin-dashboard-chart-openvsclosed .ct-series-b .ct-point
+{
+    stroke:#4cae4c !important;
+}
+
+
+
+
+
+
+.bwhd-admin-dashboard-setting-notification-tokenkey{
+    font-weight: bold;
+}
+
+.bwhd-admin-dashboard-setting-notification-tokendescription{
+    font-size:80%;
+    margin-bottom: 10px;
+}
+#bwhd_form_settings_notification_editpanel_title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#bwhd_form_settings_notification_editpanel_event{
+  font-size: 12px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,752 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bravowp-helpdesk\n"
+"POT-Creation-Date: 2015-11-22 12:15+0100\n"
+"PO-Revision-Date: 2015-11-22 12:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: bravowp <info@bravowp.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: bravowp-helpdesk\n"
+"X-Poedit-SearchPath-1: bravowp-helpdesk-attachments\n"
+"X-Poedit-SearchPath-2: bravowp-helpdesk-notifications\n"
+"X-Poedit-SearchPathExcluded-0: bravowp-helpdesk/scripts/chartist.min.js\n"
+"X-Poedit-SearchPathExcluded-1: bravowp-helpdesk/scripts/datatable.min.js\n"
+
+#: bravowp-helpdesk-attachments/business-logic/upload-handler-public.php:18
+#: bravowp-helpdesk-attachments/business-logic/upload-handler-public.php:25
+#: bravowp-helpdesk-attachments/business-logic/upload-handler.php:18
+#: bravowp-helpdesk-attachments/business-logic/upload-handler.php:25
+msgid "Please select a file to upload."
+msgstr "Selezionare un file da caricare"
+
+#: bravowp-helpdesk-attachments/business-logic/upload-handler-public.php:49
+#: bravowp-helpdesk-attachments/business-logic/upload-handler.php:49
+msgid "This file extension is not allowed."
+msgstr "Questo tipo di file non è consentito."
+
+#: bravowp-helpdesk-attachments/business-logic/upload-handler-public.php:61
+#: bravowp-helpdesk-attachments/business-logic/upload-handler.php:61
+msgid "The file is too large. Please try again."
+msgstr "Il file è troppo grande. Riprovare."
+
+#: bravowp-helpdesk-attachments/business-logic/upload-handler-public.php:76
+#: bravowp-helpdesk-attachments/business-logic/upload-handler.php:76
+msgid "User not authenticated."
+msgstr "Utente non autenticato."
+
+#: bravowp-helpdesk-attachments/controls/admin-ticket-attachments-list.php:20
+#: bravowp-helpdesk-attachments/controls/frontend-ticket-view-panel.php:13
+msgid "No attachments yet."
+msgstr "Non ci sono allegati."
+
+#: bravowp-helpdesk-attachments/controls/admin-ticket-attachments-list.php:35
+msgid "UPLOAD ATTACHMENT"
+msgstr "Carica Allegato"
+
+#: bravowp-helpdesk-attachments/controls/admin-ticket-attachments-list.php:44
+msgid "Save Attachment"
+msgstr "Salva Allegato"
+
+#: bravowp-helpdesk-attachments/controls/frontend-ticket-view-panel.php:15
+msgid "Upload New Attachment"
+msgstr "Carica nuovo Allegato."
+
+#: bravowp-helpdesk-attachments/controls/frontend-ticket-view-panel.php:22
+msgid "Upload Attachment"
+msgstr "Carica Allegato"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:11
+msgid "Allow Customers to upload Files?"
+msgstr "Consentire ai clienti di allegare files?"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:14
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:28
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:39
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:53
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:67
+msgid "No"
+msgstr "No"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:15
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:29
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:40
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:54
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:68
+msgid "Yes"
+msgstr "Si"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:19
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:44
+msgid ""
+"Use this settings to restrict the use of front-end Helpdesk to registered "
+"users only. Default: No."
+msgstr ""
+"Usa questa opzione per riservare la creazione di richieste front-end ai soli "
+"utenti registrati. Default: No."
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:25
+msgid "Allow Helpdesk Agents to upload Files?"
+msgstr "Consentire agli Operatori di allegare Files?"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:33
+msgid ""
+"Set this value to 'Yes' to allow your Customers to upload files in the front-"
+"end section of the helpdesk. Default: No."
+msgstr ""
+"Settare questa opzione su \"Si\" per consentire ai tuoi clienti di caricare "
+"files nel front-end. Default: No."
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:39
+msgid "Allowed files extensions"
+msgstr "Estensioni files consentite"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:44
+msgid "A comma separated list of files that can be uploaded in your Helpdesk."
+msgstr "Una lista separata da virgola delle estensioni dei files accettate."
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:50
+msgid "Maximum Attachments per Ticket"
+msgstr "Massimo Allegati per singolo Ticket"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:55
+msgid "The number of files that can be uploaded for each Ticket. Default: 3"
+msgstr "Il numero dei files che possono essere allegati ad un Ticket"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:61
+msgid "Maximum Attachment size"
+msgstr "Dimensione massima dei files"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:66
+msgid ""
+"The maximum size of the files that can be uploaded, in KB. Default: 5000"
+msgstr "La dimensione massima del singolo allegato, in KB. Default: 5000"
+
+#: bravowp-helpdesk-attachments/controls/settings-edit.php:73
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:90
+msgid "Save Settings"
+msgstr "Salva Impostazioni"
+
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:83
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:173
+msgid "Please type a title for this Ticket."
+msgstr "Perfavore, inserire un titolo per questa Richiesta."
+
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:87
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:177
+msgid "Please type a description for this Ticket."
+msgstr "Perfavore, inserire una descrizione per questa richiesta."
+
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:154
+msgid "Please type a name for the Customer."
+msgstr "Perfavore, inserire un nome per il cliente."
+
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:158
+msgid "Please type an email for the Customer."
+msgstr "Perfavore, inserire una email per il cliente."
+
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:166
+msgid "Please select a Customer."
+msgstr "Perfavore, selezionare un cliente."
+
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:181
+msgid "Please select a Category."
+msgstr "Perfavore, selezionare una Categoria."
+
+#: bravowp-helpdesk/ajax/ajax-admin-dashboard.php:268
+msgid "Please type a Message."
+msgstr "Perfavore, inserire un Messaggio."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:98
+msgid "Please type your full name."
+msgstr "Perfavore, inserire il proprio nome."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:102
+msgid "Please type your email address."
+msgstr "Perfavore, inserire il vostro indirizzo email."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:107
+msgid "Please enter a Title for this Ticket."
+msgstr "Perfavore, inserire un titolo per questa Richiesta."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:111
+msgid "Please enter a Description for this Ticket."
+msgstr "Perfavore, inserire una descrizione per questa Richiesta."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:115
+msgid "Please select a Category for this Ticket."
+msgstr "Perfavore, selezionare una Categoria per questa richiesta."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:119
+msgid "Please type the value as shown in the image."
+msgstr "Perfavore, inserire il valore come mostrato nell'immagine."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:125
+msgid "The value you typed and the value shown do not match."
+msgstr "Il valore inserito e il valore mostrato nell'immagine non combaciano."
+
+#: bravowp-helpdesk/ajax/ajax-frontend.php:188
+msgid "Please type your message."
+msgstr "Perfavore, inserire un messaggio."
+
+#: bravowp-helpdesk/business-logic/placeholders.php:12
+msgid "No data (add on not installed)"
+msgstr "Nessun dato (add-on non presente)"
+
+#: bravowp-helpdesk/business-logic/placeholders.php:27
+msgid "Coming Soon!"
+msgstr "In arrivo!"
+
+#: bravowp-helpdesk/business-logic/placeholders.php:29
+msgid ""
+"This feature will be soon ready. Please check www.bravowp.com for more "
+"information."
+msgstr ""
+"Questa funzione sara' presto disponibile. Visitare www.bravowp.com per "
+"maggiori informazioni."
+
+#: bravowp-helpdesk/business-logic/placeholders.php:48
+msgid "Add-on Available!"
+msgstr "Add-on Disponibile!"
+
+#: bravowp-helpdesk/business-logic/placeholders.php:50
+msgid ""
+"This feature is available as an add-on. Please visit www.bravowp.com for "
+"more information."
+msgstr ""
+"Questa funzione è disponibile come add-on. Visitare www.bravowp.com per "
+"maggiori informazioni."
+
+#: bravowp-helpdesk/business-logic/placeholders.php:67
+#: bravowp-helpdesk/business-logic/placeholders.php:85
+msgid "No data to show at this time."
+msgstr "Nessun dato al momento."
+
+#: bravowp-helpdesk/controllers/categories-controller.php:17
+msgid "Pre-Sale Question"
+msgstr "Domanda pre-Vendita"
+
+#: bravowp-helpdesk/controllers/categories-controller.php:22
+msgid "Support on Product"
+msgstr "Supporto su Prodotto"
+
+#: bravowp-helpdesk/controllers/categories-controller.php:27
+msgid "Generic Enquiry"
+msgstr "Domanda Generica"
+
+#: bravowp-helpdesk/controllers/status-controller.php:17
+msgid "Open"
+msgstr "Aperte"
+
+#: bravowp-helpdesk/controllers/status-controller.php:23
+msgid "Work in Progress"
+msgstr "In Lavorazione"
+
+#: bravowp-helpdesk/controllers/status-controller.php:29
+msgid "Closed"
+msgstr "Chiuse"
+
+#: bravowp-helpdesk/controls/admin-dashboard-about.php:5
+msgid "About BravoWP's Helpdesk"
+msgstr "su BravoWP Helpdesk"
+
+#: bravowp-helpdesk/controls/admin-dashboard-about.php:18
+msgid "Thank you!"
+msgstr "Grazie!"
+
+#: bravowp-helpdesk/controls/admin-dashboard-about.php:20
+msgid "for using our products, we hope you enjoy it."
+msgstr "per usare i nostri prodotti, speriamo siate soddisfatti."
+
+#: bravowp-helpdesk/controls/admin-dashboard-about.php:22
+msgid "You may want to visit our website:"
+msgstr "Ecco il nostro sito web:"
+
+#: bravowp-helpdesk/controls/admin-dashboard-about.php:24
+msgid "Visit BravoWP.com"
+msgstr "Visita BravoWP.com"
+
+#: bravowp-helpdesk/controls/admin-dashboard-about.php:26
+msgid "to find all the add-ons available for BravoWP's Helpdesk plugin."
+msgstr "per conoscere tutte le add-ons disponibili per BravoWP's Helpdesk."
+
+#: bravowp-helpdesk/controls/admin-dashboard-about.php:28
+msgid ""
+"Feel free to Contact Us for any support or in case you need modifications or "
+"your own WP plugin from scratch!"
+msgstr ""
+"Non esitare a Contattarci per qualsiasi aiuto o nel caso voi aveste bisogno "
+"di modifiche/aggiunte o nel caso aveste bisogno di un plugin per WordPress "
+"personalizzato."
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:5
+msgid "Helpdesk Dashboard"
+msgstr "Helpdesk Dashboard"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:7
+#: bravowp-helpdesk/controls/admin-dashboard-ticketslist.php:7
+#: bravowp-helpdesk/controls/frontend-home.php:47
+msgid "Create Ticket"
+msgstr "Crea Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:21
+msgid "My Tickets"
+msgstr "Le Mie Richieste"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:23
+msgid "Assigned to me"
+msgstr "Assegnati a me"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:27
+msgid "New Tickets"
+msgstr "Nuove Richieste"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:29
+msgid "Awaiting response"
+msgstr "In attesa di Risposta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:33
+msgid "In Process"
+msgstr "In Lavorazione"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:35
+msgid "Tickets working on"
+msgstr "Richieste in lavorazione"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:39
+msgid "Closed so far"
+msgstr "Chiuse fin'ora"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:41
+msgid "Tickets resolved"
+msgstr "Richieste Chiuse"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:60
+msgid "Opened Tickets vs Closed Tickets"
+msgstr "Richieste Aperte vs Richieste Chiuse"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:68
+msgid "Created Tickets"
+msgstr "Richieste Create"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:70
+msgid "Closed Tickets"
+msgstr "Richieste Chiuse"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:81
+msgid "Last 3 Opened Tickets"
+msgstr "Ultime 3 Richieste Create\v"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:89
+msgid "Number"
+msgstr "Numero"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:90
+msgid "Ticket / Status"
+msgstr "Richiesta / Stato"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:91
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:60
+msgid "Customer"
+msgstr "Cliente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-dashboard.php:92
+msgid "Edit"
+msgstr "Modifica"
+
+#: bravowp-helpdesk/controls/admin-dashboard-help.php:5
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:83
+msgid "Help and Support"
+msgstr "Aiuto e Supporto"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:11
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:20
+#: bravowp-helpdesk/controls/admin-dashboard-ticketslist.php:5
+msgid "Support Tickets"
+msgstr "Richieste"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:29
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-tasks.php:9
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview.php:27
+msgid "Tasks"
+msgstr "Attività"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:38
+msgid "Helpdesk Agents"
+msgstr "Operatori"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:47
+msgid "Support Contracts"
+msgstr "Contratti di Supporto"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:56
+msgid "Table Elements"
+msgstr "Elementi Tabelle"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:65
+msgid "Email Notifications"
+msgstr "Notifiche Email"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:74
+msgid "Settings"
+msgstr "Opzioni"
+
+#: bravowp-helpdesk/controls/admin-dashboard-menu.php:92
+msgid "About"
+msgstr "About"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:5
+msgid "Helpdesk Settings"
+msgstr "Opzioni Helpdesk"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:18
+msgid "General"
+msgstr "Generali"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:21
+msgid "Notifications"
+msgstr "Notifiche"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:24
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-attachments.php:9
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview.php:24
+msgid "Attachments"
+msgstr "Allegati"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:36
+msgid "Allow UnRegistered User to create Tickets?"
+msgstr "Abilitare utenti non registrati alla creazione di Richieste?"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:50
+msgid "Require CAPTCHA on Ticket Creation?"
+msgstr "Richiedere CAPTCHA durante creazione Richieste?"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:58
+msgid ""
+"Set this yes to require a CAPTCHA validation when users create new Support "
+"Tickets. Default: No."
+msgstr ""
+"Imposta a \"Si\" per richiede il controllo CAPTCHA quando un utente crea "
+"richieste di supporto. Default: No."
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:64
+msgid "Enable System Events Log?"
+msgstr "Attivare Log di Sistema?"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:72
+msgid ""
+"Enable the logging of system activity only for debug purpouses or in case of "
+"errors. Logging will slow down loading times. Default: No."
+msgstr ""
+"Abilita la registrazione degli eventi di Sistema. Usare solo per scopi di "
+"debug, poiché il plugin viene rallentato nei suoi processi. Default: No."
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:78
+msgid "Helpdesk Email"
+msgstr "Email Helpdesk"
+
+#: bravowp-helpdesk/controls/admin-dashboard-settings.php:83
+msgid ""
+"The email address used to receive notifications and that will be used as "
+"sender email address. Note: requires BravoWP Email Notifications add-on "
+"installed in order to be used."
+msgstr ""
+"Questo indirizzo email è usato per ricevere le notifiche e viene usato come "
+"\"Sender\" per le emails. Richiede l'add-on per le Notifiche email per "
+"funzionare."
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:5
+#: bravowp-helpdesk/controls/frontend-ticketslist.php:43
+msgid "Create New Support Ticket"
+msgstr "Crea Nuova Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:17
+msgid "Customer Information"
+msgstr "Informazioni Cliente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:23
+msgid "Customer type"
+msgstr "Tipo Cliente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:25
+msgid "Existing"
+msgstr "Esistente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:26
+msgid "New Customer"
+msgstr "Nuovo Cliente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:31
+msgid "Customer Name"
+msgstr "Nome Cliente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:38
+msgid "Customer Email"
+msgstr "Email Cliente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:45
+msgid "Select Customer"
+msgstr "Seleziona Cliente"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:68
+msgid "Ticket Information"
+msgstr "Informazioni Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:74
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:12
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:83
+msgid "Ticket Title"
+msgstr "Titolo Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:81
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:16
+msgid "Ticket Description"
+msgstr "Descrizione Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:88
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:35
+msgid "Ticket Category"
+msgstr "Categoria Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketnew.php:109
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:145
+msgid "Save Ticket"
+msgstr "Salva Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketslist.php:19
+msgid "Tickets List"
+msgstr "Lista Richieste"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:3
+msgid ""
+"The new ticket was created. You can add now more details to it, by using the "
+"panels above."
+msgstr ""
+"La richiesta è stata creata. Ora è possibile aggiungere altri dati, usando i "
+"pannelli qui sopra."
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:8
+msgid "Ticket Details"
+msgstr "Dettagli Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:20
+msgid "Ticket Status"
+msgstr "Stato Richiesta"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:49
+msgid "Save Details"
+msgstr "Salva Dettagli"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:51
+msgid "Ticket Details were updated"
+msgstr "I dettagli della richiesta sono stati aggiornati"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:72
+msgid "Resolution Process"
+msgstr "Processo di soluzione"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-details.php:78
+msgid "Support Contract"
+msgstr "Contratto di Supporto"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-events.php:9
+msgid "MESSAGES AND EVENTS"
+msgstr "MESSAGGI ED EVENTI"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-events.php:14
+msgid "No messages yet."
+msgstr "Nessun messaggio."
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-events.php:29
+msgid "ADD MESSAGE"
+msgstr "AGGIUNGI MESSAGGIO"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-events.php:35
+msgid "Message:"
+msgstr "Messaggio:"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview-events.php:38
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:99
+msgid "Save Message"
+msgstr "Salva Messaggio"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview.php:18
+msgid "Details"
+msgstr "Dettagli"
+
+#: bravowp-helpdesk/controls/admin-dashboard-ticketview.php:21
+msgid "Messages & Events"
+msgstr "Messaggi ed Eventi"
+
+#: bravowp-helpdesk/controls/frontend-home.php:3
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:3
+#: bravowp-helpdesk/controls/frontend-ticketslist.php:3
+msgid ""
+"Welcome to our Helpdesk. If you have a problem, a question or a request for "
+"help, you can create a New Support Ticket by clicking on the following "
+"button. You can review your existing Support Tickets by clicking on the "
+"'Search Ticket' button."
+msgstr ""
+"Benvenuto al nostro Helpdesk. Se hai un problema, una domanda o una "
+"richiesta di informazioni, puoi creare una nuova Richiesta di Supporto "
+"cliccando su questo bottone seguente. Puoi rivedere le Richieste esistenti "
+"cliccando sul pulsante \"Cerca Richieste\"."
+
+#: bravowp-helpdesk/controls/frontend-home.php:4
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:4
+#: bravowp-helpdesk/controls/frontend-ticketslist.php:4
+msgid ""
+"Welcome to our Helpdesk. If you have a problem, a question or a request for "
+"help, you can create a New Support Ticket by clicking on the following "
+"button."
+msgstr ""
+"Benvenuto nel nostro Helpdesk. Se hai un problema, una domanda o una "
+"richiesta di informazioni, puoi creare una nuova Richiesta di Supporto "
+"cliccando su questo bottone seguente. "
+
+#: bravowp-helpdesk/controls/frontend-home.php:15
+msgid "Welcome to our Support Page!"
+msgstr "Benvenuto!"
+
+#: bravowp-helpdesk/controls/frontend-home.php:59
+msgid "Search Tickets"
+msgstr "Cerca Richieste"
+
+#: bravowp-helpdesk/controls/frontend-home.php:80
+msgid "Our Helpdesk is dedicated to our Registered users."
+msgstr "Il nostro helpdesk è riservato agli utenti registrati."
+
+#: bravowp-helpdesk/controls/frontend-home.php:81
+msgid "Please "
+msgstr "Perfavore"
+
+#: bravowp-helpdesk/controls/frontend-home.php:81
+msgid "Login"
+msgstr "esegui il login"
+
+#: bravowp-helpdesk/controls/frontend-home.php:81
+msgid "or"
+msgstr "o"
+
+#: bravowp-helpdesk/controls/frontend-home.php:81
+msgid "Register"
+msgstr "registrati"
+
+#: bravowp-helpdesk/controls/frontend-home.php:81
+msgid "to our website. Thank you!"
+msgstr "al nostro sito web, grazie!"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:25
+msgid "Review your Support Ticket"
+msgstr "Dettagli per la tua Richiesta"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:31
+msgid "Opened On:"
+msgstr "Aperta il:"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:38
+msgid "Ticket Title:"
+msgstr "Titolo:"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:45
+msgid "Ticket Description:"
+msgstr "Descrizione:"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:52
+msgid "Status:"
+msgstr "Stato:"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:61
+msgid "Go Back"
+msgstr "Torna Indietro:"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:67
+msgid "Messages"
+msgstr "Messaggi:"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:74
+msgid "Attachmets"
+msgstr "Allegati"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:85
+msgid "Messages for this Ticket"
+msgstr "Messaggi per questa Richiesta:"
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:90
+msgid "No Messages yet."
+msgstr "Nessun messaggio."
+
+#: bravowp-helpdesk/controls/frontend-ticketedit.php:95
+msgid "Add New Message"
+msgstr "Aggiungi Messaggio"
+
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:18
+msgid "Create a new Support Ticket"
+msgstr "Crea nuova Richiesta"
+
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:49
+msgid "Your Name"
+msgstr "Il tuo Nome"
+
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:70
+msgid "Your Email"
+msgstr "La tua Email"
+
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:90
+msgid "Problem / Request Description"
+msgstr "Descrizione"
+
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:97
+msgid "Category"
+msgstr "Categoria"
+
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:123
+msgid "Please type the following value"
+msgstr "Perfavore, inserisci questo valore"
+
+#: bravowp-helpdesk/controls/frontend-ticketnew.php:146
+#: bravowp-helpdesk/controls/frontend-ticketslist.php:42
+msgid "Cancel"
+msgstr "Annulla"
+
+#: bravowp-helpdesk/controls/frontend-ticketslist.php:18
+msgid "Manage your existing Support Tickets"
+msgstr "Gestisci le tue Richieste"
+
+#: bravowp-helpdesk/controls/frontend-ticketslist.php:39
+msgid "No Support Tickets found."
+msgstr "Nessuna richiesta trovata"
+
+#: bravowp-helpdesk/controls/frontend-ticketthanks.php:4
+msgid "Support Ticket received!"
+msgstr "Richiesta Ricevuta!"
+
+#: bravowp-helpdesk/controls/frontend-ticketthanks.php:9
+msgid ""
+"Thank you, we received your request! Our Support Agents will operate on your "
+"Ticket as soon as possible. No further action is needed from your side; "
+"please hold on and await our response."
+msgstr ""
+"Grazie, abbiamo ricevuto la tua Richiesta! I nostri operatori la prenderanno "
+"in carico non appena possibile. Nessuna azione è richiesta da parte Vostra; "
+"per favore rimanete in attesa di un nostro contatto."
+
+#: bravowp-helpdesk/controls/frontend-ticketthanks.php:12
+msgid "Your Ticket Number is:"
+msgstr "Il numero della tua richiesta è:"
+
+#: bravowp-helpdesk/controls/frontend-ticketthanks.php:17
+msgid "Go Home"
+msgstr "Torna Indietro"
+
+#~ msgid "Add New Message:"
+#~ msgstr "Aggiungi Messaggio:"
